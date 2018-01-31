@@ -1,0 +1,26 @@
+The makefile will make dungeon.exe from the sources.
+
+You will need:
+
+1. A UNIX like make (I use Don Kneller's NDMAKE)
+2. Microsoft Fortran (versions 4 and 5 tested)
+
+I modified the sources only slightly from the distribution I received (which
+was intended for the VAX). Changes made:
+
+1. INCLUDE statement syntax different
+2. Continuation character moved from column 1 to 6 (boy is the VAXUNIX wierd!)
+3. Bitwise logical function names changed.
+4. GDT command always available if compiled with debug code present (see
+	makefile for instructions).
+
+All pretty trivial.
+
+
+Also, the program readit (compiled from readit.c) will allow printing out
+all the text strings in the game. This is useful for the cheaters among you,
+particularly those compiling in the GDT command. :-)
+
+
+Tom Almy
+toma@tekgvs.labs.tek.com

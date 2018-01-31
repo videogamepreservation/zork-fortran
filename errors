@@ -1,0 +1,69 @@
+actors.for:1: 
+   eC AAPPLI- APPLICABLES FOR ADVENTURERS
+   ^
+Invalid first character at (^) [info -f g77 M LEX]
+actors.for: In function `aappli':
+actors.for:12: undefined or invalid # directive
+actors.for:13: undefined or invalid # directive
+actors.for:14: undefined or invalid # directive
+actors.for:15: undefined or invalid # directive
+actors.for:16: undefined or invalid # directive
+actors.for:17: undefined or invalid # directive
+actors.for:18: undefined or invalid # directive
+actors.for:19: undefined or invalid # directive
+actors.for:20: undefined or invalid # directive
+actors.for:21: undefined or invalid # directive
+actors.for:22: undefined or invalid # directive
+actors.for:23: undefined or invalid # directive
+actors.for:24: undefined or invalid # directive
+actors.for:43: 
+           CFLAG(CEVSPH)=.FALSE.
+           ^
+Invalid declaration of or reference to symbol `cflag' at (^) [initially seen at (^)]
+actors.for:53: 
+           AROOM(AROBOT)=CAGER
+           ^
+Invalid declaration of or reference to symbol `aroom' at (^) [initially seen at (^)]
+actors.for:55: 
+           CAGESF=.TRUE.
+           1      2
+Type disagreement between expressions at (1) and (2)
+actors.for:57: 
+           OFLAG1(ROBOT)=IAND(OFLAG1(ROBOT),NOT(NDSCBT))
+           ^
+Invalid declaration of or reference to symbol `oflag1' at (^) [initially seen at (^)]
+actors.for: In subroutine `thiefd':
+actors.for:116: undefined or invalid # directive
+actors.for:118: undefined or invalid # directive
+actors.for:119: undefined or invalid # directive
+actors.for:120: undefined or invalid # directive
+actors.for:121: undefined or invalid # directive
+actors.for:122: undefined or invalid # directive
+actors.for:123: undefined or invalid # directive
+actors.for:124: undefined or invalid # directive
+actors.for:125: undefined or invalid # directive
+actors.for:126: undefined or invalid # directive
+actors.for:158: 
+           IF(QHERE(EGG,THFPOS)) OFLAG2(EGG)=IOR(OFLAG2(EGG),OPENBT)
+                                 ^
+Invalid declaration of or reference to symbol `oflag2' at (^) [initially seen at (^)]
+actors.for:168: 
+           IF(THFFLG) GO TO 1300
+              ^
+Type disagreement between expressions at (^) and (^)
+actors.for:176: 
+           THFFLG=.TRUE.
+           1      2
+Type disagreement between expressions at (1) and (2)
+actors.for:204: 
+           THFFLG=.TRUE.
+           1      2
+Type disagreement between expressions at (1) and (2)
+actors.for:262: 
+   1700    IF(OADV(ROPE).EQ.-THIEF) DOMEF=.FALSE.
+                                    1     2
+Type disagreement between expressions at (1) and (2)
+actors.for:270: 
+           THFFLG=.FALSE.
+           1      2
+Type disagreement between expressions at (1) and (2)
